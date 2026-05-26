@@ -18,11 +18,13 @@ The testing workstation functions as the attacker and analysis system for:
 ## Topology Diagram
 
 Laptop (Attacker/Test System)
-        |
-        |
+        
+        >
+        
    Network / Switch
-        |
-        |
+        
+        >
+
 AlmaLinux Research Server
 
 ---
@@ -39,3 +41,4 @@ AlmaLinux Research Server
 ---
 
 ## Research Purpose
+The network design was intentionally simplified to isolate the effects of operating system hardening controls and minimize environmental variability during comparative testing.
